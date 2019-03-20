@@ -5,8 +5,6 @@
   "scripts": {
     "pretest": "webdriver-manager update",
     "test": "protractor configs/protractor-config.js",
-    "lint": "eslint .",
-    "lint:pre-commit": "eslint . --rule 'no-console: 2' --rule 'no-debugger: 2' --rule 'protractor/no-browser-pause: 2'"
   },
   "pre-commit": [
     "lint:pre-commit"
