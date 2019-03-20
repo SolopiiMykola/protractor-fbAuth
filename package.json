@@ -4,14 +4,14 @@
   "description": "Fb e2e test",
   "scripts": {
     "pretest": "webdriver-manager update",
-    "test": "protractor configs/protractor-config.js",
+    "test": "protractor configs/protractor-config.js"
   },
   "pre-commit": [
     "lint:pre-commit"
   ],
   "dependencies": {
-    "jasmine-spec-reporter": "^2.7.0",
-    "protractor": "^5.1.1"
+    "jasmine-spec-reporter": "latest",
+    "protractor": "latest"
   },
   "devDependencies": {
     "eslint": "^3.19.0",

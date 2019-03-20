@@ -8,6 +8,6 @@ describe('Login and upload avatar', () => {
 
     it('Login by new user', loginLogic.loginUser.bind(loginLogic));
 
-    it('Upload avatar', profileLogic.uploadPhoto.bind(profileLogic));
+    it('Upload avatar', profileLogic.uploadAvatar.bind(profileLogic));
 
 });
