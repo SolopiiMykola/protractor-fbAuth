@@ -1,0 +1,26 @@
+{
+  "name": "fb_e2e_test",
+  "version": "1.0.0",
+  "description": "Fb e2e test",
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor configs/protractor-config.js",
+    "lint": "eslint .",
+    "lint:pre-commit": "eslint . --rule 'no-console: 2' --rule 'no-debugger: 2' --rule 'protractor/no-browser-pause: 2'"
+  },
+  "pre-commit": [
+    "lint:pre-commit"
+  ],
+  "dependencies": {
+    "jasmine-spec-reporter": "^2.7.0",
+    "protractor": "^5.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-async-await": "^0.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-protractor": "^1.34.2",
+    "pre-commit": "^1.2.2"
+  }
+}
