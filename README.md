@@ -3,7 +3,7 @@
 ## Setup:
 * Install [Node](http://nodejs.org) (v6.x.x or later)
 * `git clone` this project
-* `npm` to install the project dependencies
+* run `npm install` to install the project dependencies
 * `npm run update` to update drivers
 
 ## Run tests:
